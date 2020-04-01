@@ -8,3 +8,84 @@ body{
     background-repeat: no-repeat;
 }
 
+#first-header{
+    display: flex;
+    flex-direction: row;
+    color: white;
+}
+
+#first-info{
+    color: #f0f8f4;
+    border-style: solid;
+    border-color: #8ee197;
+
+}
+
+#circle h2{
+    color: ;
+}
+
+#btn-hr{
+    display: flex;
+    position: absolute;
+    z-index: 2;
+    color: #000000;
+    background-color: transparent;
+    border-style: none;
+
+}
+
+#btn-employee{
+    display: flex;
+    position: absolute;
+    margin-left: 180px;
+    z-index: 2;
+    color: #f2f2f2;
+    background-color: transparent;
+    border-style: none;
+}
+
+#human-resources{
+    position: absolute;
+    background-image: url(./images/background-form.svg);
+    background-repeat: no-repeat;
+    height: 615px;
+    width: 80vw ;
+
+
+}
+
+form input{
+    padding: 10px;
+    margin-bottom: 7px;
+}
+
+#form-rh::placeholder{
+    color: #5abd68;
+}
+
+#qminu{
+    color: #f0f8f4;
+    background-color: #148f50;
+    width: 200px;
+    height: 20px;
+}
+
+#employee{
+    position: absolute;
+    background-image: url(./images/background-employee.svg);
+    background-repeat: no-repeat;
+    width: 80vw; 
+    height: 615px;
+    z-index: -1;
+}
+
+#final-info{
+    padding-top: 620px;
+}
+
+
+
+
+
+

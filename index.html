@@ -7,102 +7,107 @@
     <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-    <header>
-        <p>
-            Con <img src="./images/logoMinu2.png" alt="">
-        </p>
-        <h1>
-            ¡Retira tu quincena cuando quieras!
-        </h1>
-        <img src="./images/app.png" alt="minu_app">
-        <p>
-            Somos un beneficio que te permite tener un acceso a tu salario trabajando cuando quieras. <br>
-            <span>
-                Instantáneo y 24x7, a través de una App.
-            </span>
-        </p>
+    <header >
+        <section id="first-header">
+            <p>
+                Con <img src="./images/logoMinu2.png" alt="">
+            </p>
+            <h1>
+                ¡Retira tu quincena cuando quieras!
+            </h1>
+            <img src="./images/app.png" alt="minu_app">
+        </section>
+        <section id="first-info">
+            <p>
+                Somos un beneficio que te permite tener un acceso a tu salario trabajando cuando quieras. <br>
+                <span>
+                    Instantáneo y 24x7, a través de una App.
+                </span>
+            </p>
+        </section>
      
     </header>
     <section>
-        <article>
-            <h1>
+        <article id="circle">
+            <h2>
                 $39
-            </h1>
+            </h2>
             <p>
                 cuota por retiro 
             </p>
 
         </article>
-        <article>
-            <h1>
+        <article id="circle">
+            <h2>
                 0
-            </h1>
+            </h2>
             <p>
                 sin tasa de interés
             </p>
         </article>
-        <article>
-            <h1>
+        <article id="circle">
+            <h2>
                 24/7
-            </h1>
+            </h2>
             <p>
                 transacción inmediata
             </p>
         </article>
     </section>
-    <section>
-        <section>
+
+    <main >
+        <button id="btn-hr"> 
             <p>
                 Soy
             </p>
-            <h1>
-                Recursos humanos
-            </h1>
+            <h2>
+                Recursos <br> Humanos
+            </h2>
+        </button>
+
+        <button id="btn-employee">
+            <p>
+                Soy
+            </p>
+            <h2>
+                Empleado
+            </h2>
+        </button>
+
+        <section id="human-resources">
+
             <p>
                 Déjanos tus datos aquí y te contactaremos.
             </p>
     
             <form>
-                <label>
-                <input type="text" placeholder="*Tu nombre"><br>
-    
-                </label>
-                <label>
-                <input type="text" placeholder="*Tu correo del trabajo"> <br>
-                </label>
-                <label>
-                <input type="text" placeholder="*¿Para qué empresa trabajas?"> <br>
-                </label>
-                <label>
-                <input type="text" placeholder="Tu rol en la empresa"> <br>
-                </label>
-                <label>
-                <input type="text" placeholder="Tu teléfono de contacto"> <br>
-                </label>
-                <label>
-                <input type="text" placeholder="*Número de colaboradores"> <br>
-                </label>
+                <input type="text" id="form-rh" placeholder="*Tu nombre" ><br>
+
+                <input type="text" id="form-rh" placeholder="*Tu correo del trabajo"> <br>
+                
+                <input type="text" id="form-rh" placeholder="*¿Para qué empresa trabajas?"> <br>
+        
+                <input type="text" id="form-rh" placeholder="*Tu rol en la empresa"> <br>
+                
+                <input type="text" id="form-rh" placeholder="*Tu teléfono de contacto"> <br>
+               
+                <input type="number" id="form-rh" placeholder="*Número de colaboradores"> <br>
+               
                 <p>
                     *Campos obligatorios
                 </p>
-                <button type="button" > Quiero <span>minu</span></button>
+                <button type="button" id="qminu" > Quiero <span>minu</span></button>
                 <p>
                     Consulta términos y condiciones en <span>minu.mx</span>
                 </p>
             </form>
         </section>
         <section id="employee">
-            <p>
-                soy
-            </p>
-            <h1>
-                Empleado
-            </h1>
-            
-            
+ 
         </section>
-    </section>
-    <section>
+    </main>
+
+    <section id="final-info">
         <h2>
             Sin préstamos, sin intereses, sin deuda.
         </h2>
@@ -123,6 +128,6 @@
         </p>
 
     </footer>
-    
+    <script src="./index.js"></script>
 </body>
 </html>
