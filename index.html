@@ -84,34 +84,46 @@
 
         <section id="human-resources">
 
-            <p>
-                Déjanos tus datos aquí y te contactaremos.
-            </p>
-    
-            <form>
-                <input type="text" id="form-rh" placeholder="*Tu nombre" ><br>
-
-                <input type="text" id="form-rh" placeholder="*Tu correo del trabajo"> <br>
-                
-                <input type="text" id="form-rh" placeholder="*¿Para qué empresa trabajas?"> <br>
-        
-                <input type="text" id="form-rh" placeholder="*Tu rol en la empresa"> <br>
-                
-                <input type="text" id="form-rh" placeholder="*Tu teléfono de contacto"> <br>
-               
-                <input type="number" id="form-rh" placeholder="*Número de colaboradores"> <br>
-               
+            
+            <form id="hr-form"> 
                 <p>
+                    Déjanos tus datos aquí y te contactaremos.
+                </p>
+                <input type="text" class="form-rh" placeholder="*Tu nombre" ><br>
+
+                <input type="text" class="form-rh" placeholder="*Tu correo del trabajo"> <br>
+                
+                <input type="text" class="form-rh" placeholder="*¿Para qué empresa trabajas?"> <br>
+        
+                <input type="text" class="form-rh" placeholder="*Tu rol en la empresa"> <br>
+                
+                <input type="text" class="form-rh" placeholder="*Tu teléfono de contacto"> <br>
+               
+                <input type="number" class ="form-number" placeholder="*Número de colaboradores"> <br>
+               
+                <p id="text-one">
                     *Campos obligatorios
                 </p>
-                <button type="button" id="qminu" > Quiero <span>minu</span></button>
-                <p>
-                    Consulta términos y condiciones en <span>minu.mx</span>
+
+                <button type="button" id="want-minu" > Quiero  <span>minu</span></button>
+
+                <p id="text-two">
+                    Consulta términos y condiciones en <a href="https://minu.mx/"> minu.mx</a>
                 </p>
             </form>
         </section>
+
         <section id="employee">
- 
+            <h2>COMPARTE</h2>
+            <div id="green-border"></div>
+            <p>Envía al equipo de Recursos <br>
+            Humanos de tu empresa. </p>
+
+            <article id="icon">
+                <img src="./images/mail.svg" alt="image-mail">
+                <img src="./images/phone.svg" alt="image-phone">
+            </article>
+            
         </section>
     </main>
 
@@ -124,7 +136,7 @@
         </h3>
     </section>
     <footer>
-        <section>
+        <section id="fa-footer">
             <img src="./images/logoMinu2.png">
             <button type="button"> CONTÁCTANOS </button>
             <p> © Minu Servicios, S.A.P.I de C.V Minu es una marca registrada. <br>
