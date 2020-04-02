@@ -12,8 +12,8 @@ $hrButton.addEventListener ('click', () => {
 });
 
 $emButton.addEventListener ('click', () =>{
-    $emButton.blur()
-    $hrSection.style.zIndex = "-1"
+    $emButton.blur() // para que no quede marcada la selección 
+    $hrSection.style.zIndex = "-1" //posición que tomará al darle click
     $employeeSection.style.zIndex = "1"
 })
 
