@@ -357,8 +357,8 @@ form input{
 }
 
 #contact{
-   
-    
+   width: 80%;
+   justify-content: space-evenly;
 
 }
 
