@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="./style.css"> 
 </head>
 <body>
-    <header >
-        <section id="first-header">
+    <header id="first-header"> 
             <div id="circle-bg">
                 <p>
                     Con 
@@ -21,17 +20,14 @@
                 </h1>
             </div>
             <img id="app-phone" src="./images/app.png" alt="minu_app">
-        </section>
-        <section id="first-info">
-            <p>
-                Somos un beneficio que te permite tener un acceso a tu salario trabajando cuando quieras. <br>
+            <p id="first-info">
+                Somos un beneficio que te permite tener <br> un acceso a tu salario trabajando cuando quieras. <br>
                 <span>
                     Instantáneo y 24x7, a través de una App.
                 </span>
             </p>
-        </section>
-     
     </header>
+
     <section id="circles-section">
         <article class="circle">
             <h2>
@@ -86,7 +82,7 @@
 
             
             <form id="hr-form"> 
-                <p>
+                <p id="data">
                     Déjanos tus datos aquí y te contactaremos.
                 </p>
                 <input type="text" class="form-rh" placeholder="*Tu nombre" ><br>
@@ -99,7 +95,7 @@
                 
                 <input type="text" class="form-rh" placeholder="*Tu teléfono de contacto"> <br>
                
-                <input type="number" class ="form-number" placeholder="*Número de colaboradores"> <br>
+                <input type="number" class ="form-number" placeholder="*Número de colaboradores"> 
                
                 <p id="text-one">
                     *Campos obligatorios
@@ -135,18 +131,19 @@
             Solamente acceso a salario ya trabajando.
         </h3>
     </section>
-    <footer>
-        <section id="fa-footer">
-            <img src="./images/logoMinu2.png">
-            <button type="button"> CONTÁCTANOS </button>
-            <p> © Minu Servicios, S.A.P.I de C.V Minu es una marca registrada. <br>
-           Todos los Derechos Reservados, 2019 </p>
-        </section>
-        <p>Privacidad</p>
-        <p>
-            Términos y condiciones
-        </p>
 
+
+    <footer id="fa-footer">
+        <div id="contact">
+            <img src="./images/logotipo_footer.png">
+            <button type="button"> CONTÁCTANOS </button>
+        </div>
+            <p id="copyright"> © Minu Servicios, S.A.P.I de C.V Minu es una marca registrada. <br>
+           Todos los Derechos Reservados, 2019 </p>
+
+            <p>Privacidad</p> <p> Términos y condiciones </p>
+            <div class="privacy"></div>
+        
     </footer>
     <script src="./index.js"></script>
 </body>
