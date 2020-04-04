@@ -9,15 +9,20 @@
     
     body{
         background-image: url(./images/background.png);
-        
-        background-position: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-position: left;
+        margin-left: 20px;
+        width: 100vw;
     }
     
     #first-header{
-        padding-top: 50px;
+       
+        padding-top: 30px;
         display: flex;
         flex-direction: row;
-        padding-bottom: 100px;
+        padding-bottom: 65px;
         color: white;
     }
     
@@ -29,18 +34,20 @@
         background-image: url(./images/circulos.png);
         background-repeat: no-repeat;
         background-size: cover;
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
     
     #circle-bg p {
-        font-size: 1em;
+        align-self: flex-start;
+        padding-left: 50px;
+        font-size: .8em;
         font-weight: 600 ;
     }
     
     #circle-bg h1{
         padding: 0 20px;
-        font-size: 1.8em;
+        font-size: 1.5em;
         text-align: center;
         font-weight: 900;
     }
@@ -53,21 +60,21 @@
     
     #app-phone{
         margin-left: 15px;
-        height:180px;
+        height:140px;
         width: auto;
     }
     
     #first-info{
         position: absolute;
-        top: 285px;
+        top: 215px;
         left: 25px;
         padding-top: 20px;
         padding-left: 8px;
         padding-bottom: 10px;
         color: #f0f8f4;
-        font-size: .75em;
-        width: 87%;
-        height: 45px;
+        font-size: .6em;
+        width: 85%;
+        height: 30px;
         border: 1.5px;
         border-style: solid;
         border-color: #8ee197;
@@ -80,10 +87,11 @@
     
     
     #circles-section{
-        margin-top: 0;
-        margin-bottom: 50px;
+        align-self: flex-start;
+        margin-left: 20px;        
+        margin-bottom: 40px;
         display: flex;
-        padding-left: 30px;
+        padding-left: 10px;
        
         
     }
@@ -124,10 +132,11 @@
 
 
     #hr-form{
-        margin-left: 10px;
+        margin-left: 20px;
         width: 90%;
         padding: 10px 0 0 0;
         display: flex;
+        height: 100%;
         flex-direction: column;
         justify-content: center;
         align-items: center;
@@ -136,7 +145,7 @@
     #data{
         
         color:  black;
-        font-size: .69em;
+        font-size: .55em;
         font-weight: 400;
         align-self: flex-start;
         margin-bottom: 10px;
@@ -154,21 +163,22 @@
         left: 25px;
         background-image: url(./images/background-form.svg);
         background-repeat: no-repeat;
-        height: 805px;
-        width: 320px;  
+        height: 500px;
+        width: 285px;  
     }
     
     #employee{
+        border: 3px solid blueviolet;
         position: absolute;
-        padding-top: 180px;
+        padding-top: 120px;
         left: 25px;
         display: flex;
         align-items: center;
         flex-direction: column;
         background-image: url(./images/background-employee.svg);
         background-repeat: no-repeat;
-        width: 320px; 
-        height: 735px;
+        height: 500px;
+        width: 280px; 
         z-index: -1;
     }
     
@@ -192,13 +202,13 @@
     
     #btn-hr p{
         font-weight: 600;
-        font-size: 1.1em;
+        font-size: .9em;
         margin-right: 10px;
     }
     
     #btn-hr h2{
         font-weight: 900;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     
     #btn-employee{
@@ -218,23 +228,23 @@
     
     #btn-employee p{
         font-weight: 600;
-        font-size: 1.1em;
+        font-size: .9em;
         margin-right: 10px;
     }
     
     #btn-employee h2{
         font-weight: 900;
-        font-size: 1.5em;
+        font-size: 1.3em;
     }
     
     form input{
+        
         width: 90%;
         padding: 10px;
-        margin-bottom: 1px;
         border-style: none;
     }
      input{
-         height: 20px;
+         height: 10px;
          align-self: flex-start;
          
      }
@@ -242,14 +252,14 @@
     
     .form-rh::placeholder{
         color: #5abd68;
-        font-size: .8em;
+        font-size: .5em;
         font-weight: 400;
         margin-bottom: 9px;
     }
     
     .form-number::placeholder{
         color: #5abd68;
-        font-size: .8em;
+        font-size: .5em;
         font-weight: 400;
     }
     
@@ -268,10 +278,10 @@
     } */
     
     #employee h2{
-        padding-top: 150px;
+        padding-top: 50px;
         color: #f2f2f2;
         font-weight: 900;
-        font-size: 2.4em;
+        font-size: 1.3em;
         text-decoration: #8ee197;
     }
     
@@ -280,7 +290,7 @@
         text-align: center;
         align-items: center;
         color: #f2f2f2;
-        font-size: 1.3em;
+        font-size: .8em;
         font-weight: 600;
     }
     
@@ -292,30 +302,30 @@
     }
     
     #icon{
-        margin-top: 60px;
+        margin-top: 30px;
         flex-direction: row;
     
     }
     
     
     #icon img{
-        height: 100px;
-        width: 100px;
+        height: 50px;
+        width: 50px;
         padding: 0 20px;
     }
     
     
     #want-minu{
-        margin-top: 30px;
-        font-size: 2em;
+        margin-top: 12px;
+        font-size: .8em;
         color: #f0f8f4;
         background-color: #5abd68;
         width: 93%;
-        height: 80px;
+        height: 20px;
         justify-content: center;
         align-self: flex-start;
         border-style: none;
-        border-radius: 20px;
+        border-radius: 5px;
         font-weight: 600;
     }
     
@@ -327,13 +337,13 @@
     #text-one{
         margin-top: 0;
         align-self: flex-start;
-        font-size: .9em;
+        font-size: .5em;
     }
     
     #text-two{
-        padding-top: 20px;
+        padding-top: 8px;
         align-self: start;
-        font-size: .9em;
+        font-size: .5em;
     }
     
     #text-two a{
@@ -345,8 +355,8 @@
     #final-info{
         justify-content: center;
         align-items: center;
-        padding-top: 970px;
-        margin-left: 80px;
+        padding-top: 500px;
+        margin-left: 20px;
         
     
     }
@@ -358,19 +368,18 @@
         border-style: solid;
         border-color: #8ee197;
         padding-top: 10px;
-        padding-left: 45px;
-        height: 40px;
-        width: 80%;
-        font-size: 1.5em;
+        padding-left: 20px;
+        height: 20px;
+        width: 95%;
+        font-size: .7em;
         font-weight: 900;
     }
     
     #final-info h3{
         color: #f2f2f2;
         font-weight: 600;
-        font-size: 1.4em;
-        padding-left: 78px;
-        font-weight: 600;
+        font-size: .7em;
+        padding-left: 10px;
     }
 
     #fa-footer{
@@ -384,10 +393,10 @@
         background-color: #273443;
         color: #f2f2f2;
         font-weight: 700;
-        font-size: 2em;
-        width: 55%;
-        height: 75px;
-        border-radius: 15px;
+        font-size: 1em;
+        width: 200px;
+        height: 40px;
+        border-radius: 10px;
         border-style: none;
         
     }
@@ -406,27 +415,27 @@
     
     #fa-footer p{
         color: #f2f2f2;
-        font-size: 1em;
+        font-size: .7em;
         align-self: center;
     }
     
     #fa-footer img{
-        width: 150px;
-        height: 30px;
+        width: 100px;
+        height: 22px;
     }
 
     #copyright{
         margin-top: 60px;
-        margin-left: 80px;
+        
        
     }
 
-    #rights{
-        margin-left: 180px;
-    }
+    /* #rights{
+        margin-left: 20px;
+    } */
     
     #privacy{
-        margin-left: 100px;
+        /* margin-left: 30px; */
         margin-top: 40px;
         margin-bottom: 50px;
         width: 70%;
@@ -514,9 +523,9 @@
 }
 
 #fa-footer button{
-    width: 25%;
-    height: 60px;
-    font-size: 1.8em;
+    width: 40%;
+    height: 10px;
+    font-size: 1em;
     margin-right: 180px;
 }
 
