@@ -68,7 +68,7 @@
     #first-info{
         position: absolute;
         top: 215px;
-        left: 50px;
+        left: 30px;
         padding-top: 20px;
         padding-left: 8px;
         padding-bottom: 10px;
@@ -89,7 +89,7 @@
     
     #circles-section{
         align-self: flex-start;
-        margin-left: 45px;        
+        margin-left: 15px;        
         margin-bottom: 40px;
         display: flex;
         padding-left: 10px;
@@ -161,7 +161,7 @@
     #human-resources{
         display: flex;
         position: absolute;
-        left: 40px;
+        left: 28px;
         background-image: url(./images/background-form.svg);
         background-repeat: no-repeat;
         height: 500px;
@@ -172,7 +172,7 @@
         
         position: absolute;
         padding-top: 120px;
-        left: 40px;
+        left: 28px;
         display: flex;
         align-items: center;
         flex-direction: column;
@@ -189,7 +189,7 @@
         align-items: center;
         width: 30px;
         height: 70px;
-        left: 95px;
+        left: 85px;
         padding-bottom: 10px;
         position: absolute;
         z-index: 2;
@@ -218,7 +218,7 @@
         align-items: center;
         position: absolute;
         padding-bottom: 25px;
-        margin-left: 155px;
+        margin-left: 140px;
         z-index: 2;
         color: #f2f2f2;
         background-color: transparent;
@@ -359,9 +359,7 @@
         justify-content: center;
         align-items: center;
         padding-top: 445px;
-        margin-left: 20px;
-        
-    
+        margin-left: 5px;
     }
     
     #final-info h2{
@@ -371,10 +369,10 @@
         border-style: solid;
         border-color: #8ee197;
         padding-top: 5px;
-        padding-left: 10px;
+        padding-left: 15px;
         height: 30px;
-        width: 295px;
-        font-size: .8em;
+        width: 275px;
+        font-size: .7em;
         font-weight: 900;
     }
     
@@ -382,10 +380,13 @@
         color: #f2f2f2;
         font-weight: 700;
         font-size: .7em;
-        padding-left: 30px;
+        padding-left: 17px;
     }
 
     #fa-footer{
+        
+        align-items: center;
+       
         margin-left: 30px;
         margin-top: 20px;
     }
@@ -395,10 +396,10 @@
         background-color: #273443;
         color: #f2f2f2;
         font-weight: 700;
-        font-size: 1em;
-        width: 150px;
+        font-size: .8em;
+        width: 180px;
         height: 30px;
-        border-radius: 10px;
+        border-radius: 7px;
         border-style: none;
         
     }
@@ -411,10 +412,13 @@
     
     #contact img{
         padding-top: 10px;
-        
-    
+        margin-right: 40px;
     }
-    
+
+    #contact button{
+        margin-left: 30px;
+    }
+        
     #fa-footer p{
         color: #f2f2f2;
         font-size: .5em;
