@@ -386,8 +386,8 @@
     }
 
     #fa-footer{
-        margin-left: 80px;
-        margin-top: 50px;
+        margin-left: 30px;
+        margin-top: 20px;
     }
     
 
@@ -417,28 +417,27 @@
     
     #fa-footer p{
         color: #f2f2f2;
-        font-size: .7em;
+        font-size: .5em;
         align-self: center;
     }
     
     #fa-footer img{
-        width: 100px;
-        height: 22px;
+        width: 70px;
+        height: 25px;
     }
 
     #copyright{
-        margin-top: 60px;
-        
-       
+        margin-top: 30px;
+
     }
 
-    /* #rights{
-        margin-left: 20px;
-    } */
+    #rights{
+        margin-left: 45px;
+    }
     
     #privacy{
-        /* margin-left: 30px; */
-        margin-top: 40px;
+        margin-left: 30px; 
+        margin-top: 20px;
         margin-bottom: 50px;
         width: 70%;
         display: flex;
@@ -455,7 +454,7 @@
         padding-left: 24px;
         margin-top: 5px;
         width: 88%;
-        height: 3.3px;   
+        height: 2px;   
     }
 
 
@@ -524,11 +523,13 @@
     font-size: 2.2em;
 }
 
+
+
 #fa-footer button{
     width: 40%;
     height: 10px;
     font-size: 1em;
-    margin-right: 180px;
+    
 }
 
 #contact{
