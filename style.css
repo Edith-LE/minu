@@ -217,7 +217,7 @@
         align-items: center;
         position: absolute;
         padding-bottom: 25px;
-        margin-left: 100px;
+        margin-left: 152px;
         z-index: 2;
         color: #f2f2f2;
         background-color: transparent;
@@ -359,7 +359,7 @@
         justify-content: center;
         align-self: flex-start;
         padding-top: 445px;
-        margin-left: 20px;
+        margin-left: 30px;
     }
     
     #final-info h2{
@@ -387,7 +387,7 @@
         
         align-items: center;
        
-        margin-left: 30px;
+        margin-left: 60px;
         margin-top: 20px;
     }
     
