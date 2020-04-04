@@ -4,6 +4,7 @@
     *{
         padding: 0;
         margin: 0;
+        box-sizing: border-box;
         font-family: 'Montserrat', sans-serif;
     }
     
@@ -13,7 +14,7 @@
         flex-direction: column;
         align-items: center;
         background-position: left;
-        margin-left: 20px;
+        margin-left: 10px;
         width: 100vw;
     }
     
@@ -74,7 +75,7 @@
         color: #f0f8f4;
         font-size: .6em;
         width: 85%;
-        height: 30px;
+        height: 64px;
         border: 1.5px;
         border-style: solid;
         border-color: #8ee197;
@@ -132,14 +133,14 @@
 
 
     #hr-form{
+        display: flex;
+        align-items: center;
         margin-left: 20px;
         width: 90%;
         padding: 10px 0 0 0;
-        display: flex;
         height: 100%;
         flex-direction: column;
         justify-content: center;
-        align-items: center;
     }
     
     #data{
@@ -168,7 +169,7 @@
     }
     
     #employee{
-        border: 3px solid blueviolet;
+        
         position: absolute;
         padding-top: 120px;
         left: 25px;
@@ -178,20 +179,18 @@
         background-image: url(./images/background-employee.svg);
         background-repeat: no-repeat;
         height: 500px;
-        width: 280px; 
+        width: 285px; 
         z-index: -1;
     }
     
     #btn-hr{
         display: flex;
-        width: 30px;
-        height: 70px;
-        left: 105px;
-        margin-left: 5px;
-        padding-top: 10px;
-
         justify-content: center;
         align-items: center;
+        width: 30px;
+        height: 70px;
+        left: 80px;
+        padding-bottom: 10px;
         position: absolute;
         z-index: 2;
         color: #000000;
@@ -218,8 +217,8 @@
         justify-content: center;
         align-items: center;
         position: absolute;
-        padding-top: 10px;
-        margin-left: 135px;
+        padding-bottom: 25px;
+        margin-left: 50px;
         z-index: 2;
         color: #f2f2f2;
         background-color: transparent;
@@ -227,9 +226,9 @@
     }
     
     #btn-employee p{
-        font-weight: 600;
-        font-size: .9em;
-        margin-right: 10px;
+        font-weight: 700;
+        font-size: 1em;
+        margin-right: 5px;
     }
     
     #btn-employee h2{
@@ -238,11 +237,12 @@
     }
     
     form input{
-        
         width: 90%;
         padding: 10px;
         border-style: none;
     }
+
+    
      input{
          height: 10px;
          align-self: flex-start;
@@ -278,7 +278,7 @@
     } */
     
     #employee h2{
-        padding-top: 50px;
+        padding-top: 30px;
         color: #f2f2f2;
         font-weight: 900;
         font-size: 1.3em;
@@ -286,32 +286,33 @@
     }
     
     #employee p{
-        padding-top: 45px;
+        padding-top: 25px;
         text-align: center;
         align-items: center;
         color: #f2f2f2;
         font-size: .8em;
-        font-weight: 600;
+        font-weight: 700;
     }
     
     #green-border{
         margin-top: 3px;
-        width: 26%;
-        height: 6px;
+        width: 35%;
+        height: 4px;
         background-color: #8ee197;   
     }
     
     #icon{
-        margin-top: 30px;
+        margin-top: 20px;
         flex-direction: row;
+        justify-content: space-between;
     
     }
     
     
     #icon img{
-        height: 50px;
-        width: 50px;
-        padding: 0 20px;
+        height: 90px;
+        width: 90px;
+        padding: 0 15px;
     }
     
     
