@@ -384,10 +384,11 @@
     }
 
     #fa-footer{
-        
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         align-items: center;
-       
-        margin-left: 60px;
+        
         margin-top: 20px;
     }
     
@@ -455,7 +456,7 @@
     
     .privacy-line{
         background-color: #f2f2f2;
-        padding-left: 24px;
+        /* padding-left: 34px; */
         margin-top: 5px;
         width: 88%;
         height: 2px;   
