@@ -212,13 +212,13 @@
     
     #btn-employee{
         display: flex;
-        width: 200px;
+        width: 30px;
         height: 76px;
         justify-content: center;
         align-items: center;
         position: absolute;
         padding-bottom: 25px;
-        margin-left: 70px;
+        margin-left: 155px;
         z-index: 2;
         color: #f2f2f2;
         background-color: transparent;
@@ -460,7 +460,7 @@
 
 
 
-@media (min-width: 1500px) and (max-width: 2063px){
+@media (min-width: 768px) and (max-width: 2063px){
 
     #app-phone{
     position: absolute;
