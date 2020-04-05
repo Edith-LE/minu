@@ -462,7 +462,7 @@
         height: 2px;   
     }
 
-@media (min-width: 375px){
+@media (min-width: 375px) and (max-width: 425px){
 
     #circle-bg{
         margin-left: 30px;
@@ -493,13 +493,19 @@
         left: 95px
     }
 
+    #btn-hr p{
+        font-size: 1.1em;
+    }
+
     #employee{
         left: 40px;
     }
     #btn-employee{
-        
-        margin-left: 155px;
+        margin-left: 156px;
+    }
 
+    #btn-employee p{
+        font-size: 1.1em;
     }
 
     #final-info {
@@ -510,19 +516,43 @@
     }
 }
 
-@media (min-width: 425px){
+@media (min-width: 425px) and (max-width: 768px){
+
+    #first-info{
+        top: 260px;
+
+    }
+   
+   
     #circle-bg{
         width: 250px;
         height: 250px;
     }
+    #circle-bg p{
+        font-size: 1.2em;
+        padding-left: 60px;
+    }
+
+    #circle-bg img{
+        width: 100px;
+        left: 135px;
+    }
+
+
+
+    #circle-bg h1{
+        font-size: 1.8em;
+    }
 
     #app-phone{
         width: auto;
-        height: 180px;
+        height: 190px;
     }
 
     #first-info{
-        width: 265px;
+        font-size: .75em;
+        height: 75px;
+        width: 330px;
     }
 
     #human-resources{
@@ -530,12 +560,30 @@
         width: 350px;
     }
 
+    #btn-hr{
+        left: 115px
+    }
+
     #hr-form{
         margin-top: 20px;
     }
 
+    #data{
+        font-size: .7em;
+    }
+
+    #text-one{
+        font-size: .6em;
+    }
+
+    #text-two{
+        margin-top: 10px;
+        font-size: .6em;
+    }
+
     #want-minu{
-        height: 40px;
+        margin-top: 20px;
+        height: 45px;
         font-size: 1em;
 
     }
@@ -546,10 +594,47 @@
         width: 300px
     }
 
+    .form-rh::placeholder{
+        font-size: .8em;
+    }
+
+    .form-rh::form-number{
+        font-size: .8em;
+    }
+
     #employee{
         left: 50px;
         width: 350px;
     }
+
+    #btn-employee{
+        margin-left: 200px;
+    }
+
+    #btn-employee p{
+        font-size: 1.2em;
+    }
+
+    #btn-employee h2{
+        font-size: 1.5em;
+    }
+
+    #final-info{
+        padding-top: 515px;
+        
+    }
+
+    #final-info h2{
+        width: 325px;
+        margin-left: 8px;
+        font-size: .85em;
+    }
+
+    #final-info h3{
+        font-size: .85em;
+        padding-left: 23px;
+    }
+    
 
 
 }
@@ -671,8 +756,6 @@
 @media (min-width: 1024px) and (max-width: 1440px){
     body{
         margin-right: 200px;
-
-       
         background-position: center;
         background-size: contain;
         display: flex;
@@ -682,7 +765,7 @@
     }
 
     #first-header{
-        border: 2px solid blueviolet;
+       
         margin-top: 50px;
     }
 
@@ -692,20 +775,78 @@
         height: 320px;
     }
 
+    #circle-bg p{
+        padding-left:70px;
+        font-size: 1.7em;
+    }
+
+    #circle-bg img{
+        padding-left: 15px;
+        margin-top: 7px;
+        width: 115px;
+        height: auto;
+
+    }
+
+    #circle-bg h1{
+        font-size: 2.4em;
+    }
 
 
     #app-phone{
         margin-left: 260px;
         position: absolute;
-        height: 380px;
+        height: 410px;
         width: auto;
-
     }
 
     #first-info{
-        top: 350px;
-        left: 500px;;
+        top: 380px;
+        left: 500px;
+        width: 420px;
+        height: 95px;
+        font-size: .9em;
+        padding-top: 30px;
+        padding-left: 10px;  
     }
+
+    #circles-section{
+      border: 2px solid blueviolet;
+      margin-left: 500px;
+      margin-top: 40px;
+    }
+
+    .circle{
+        height: 80px;
+        width: 80px;
+    }
+
+    .circle h2{
+        font-size: 1.68em;
+    }
+
+    .circle p{
+        font-size: .6em;
+    }
+
+    #human-resources{
+        left: 490px;
+        width: 390px;
+        height: 600px;
+    }
+
+
+
+    #employee{
+        left: 490px;
+        width: 390px;
+        height: 600px;
+    }
+
+
+    
+
+
 }
 
 
