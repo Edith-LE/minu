@@ -926,7 +926,8 @@
     }
 
     #contact{
-        justify-content: center;
+        justify-content: space-between;
+        margin-left: 210px;
        
     }
 
@@ -938,37 +939,40 @@
 
     
     #contact button{
-        width: 260px;
+        width: 240px;
         height: 40px;
         font-size: 1.1em;
-        border-radius: 10px;   
+        border-radius: 10px;
+        margin-left: 0;   
     }
 
     #fa-footer p{
-        font-size: .9em;
+        font-size: .7em;
 
     }
 
     #copyright{
         position: absolute;
+       
+        margin-top: 20px;
+        margin-left: -50px;
     }
 
 
     #rights{
         top: 1450px;
+        margin-left: -100px;
         position: absolute;
     }
 
     #privacy{
+        
         display: flex;
         justify-content: center;
-        margin-left: 315px;
-        padding-top: 13px;
+        margin-left: 525px;
+        padding-top: 16px;
     }
 
-    #privacy{
-        padding-right: 10px;
-    }
 
 }
 
