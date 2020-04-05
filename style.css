@@ -186,9 +186,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 30px;
+        width: 50px;
         height: 70px;
-        left: 85px;
+        left: 75px;
         padding-bottom: 10px;
         position: absolute;
         z-index: 2;
@@ -211,13 +211,13 @@
     
     #btn-employee{
         display: flex;
-        width: 30px;
-        height: 76px;
+        width: 50px;
+        height: 70px;
         justify-content: center;
         align-items: center;
         position: absolute;
         padding-bottom: 25px;
-        margin-left: 152px;
+        margin-left: 142px;
         z-index: 2;
         color: #f2f2f2;
         background-color: transparent;
@@ -706,7 +706,7 @@
 
 
     #human-resources{
-        padding-top: 100px;
+        padding-top: 0px;
         left: 100px;
         width: 570px;
         height: 800px;
@@ -774,7 +774,7 @@
 
     #btn-employee{
         padding-top: 20px;
-        margin-left: 350px;
+        margin-left: 360px;
     }
 
     #employee h2{
@@ -837,7 +837,7 @@
 
 
 
-@media (min-width: 1025px) and (max-width: 1440px){
+@media (min-width: 1025px) and (max-width: 1250px){
 
     body{
         margin-right: 200px;
@@ -969,7 +969,7 @@
 
     #btn-employee{
         padding-top: 20px;
-        margin-left: 615px;
+        margin-left: 590px;
     }
 
     #btn-employee p{
@@ -1012,7 +1012,7 @@
 
     #contact{
         justify-content: space-between;
-        margin-left: 210px;
+        margin-left: 20px;
        
     }
 
@@ -1029,7 +1029,7 @@
         height: 40px;
         font-size: 1.1em;
         border-radius: 10px;
-        padding-left: -100px;   
+        margin-left: -100px;
     }
 
     #fa-footer p{
@@ -1058,7 +1058,9 @@
         margin-left: 525px;
         padding-top: 16px;
     }
+}
 
+@media (min-width: 1251 px) and (max-width: 1440px){
 
 }
 
