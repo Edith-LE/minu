@@ -706,13 +706,22 @@
 
     #human-resources{
         left: 80px;
-        width: 450px;
+        width: 570px;
+        height: 800px;
         
+    }
+
+    form input{
+        height: 30px;
+        width: 70%;
+        margin-bottom: -10px;
+        border-style: none;
     }
 
     #employee{
         left: 80px;
-        width: 450px;
+        width: 570px;
+        height: 800px;
         
     }
 
@@ -844,7 +853,7 @@
 
 
 
-@media (min-width: 1024px) and (max-width: 1440px){
+@media (min-width: 1024px) and (max-width: 1439px){
     body{
         margin-right: 200px;
         background-position: center;
@@ -1187,7 +1196,7 @@
 
 }
 
-@media (max-width: 2560px){
+@media (min-width: 2560px){
 
     body{
         background-position: center;
@@ -1267,11 +1276,44 @@
 
     }
 
+    #btn-hr{
+        padding-top: 8px;
+        margin-left: 1320px;
+    }
+
+    #btn-hr p{
+        font-size: 2em;
+    }
+
+    #btn-hr h2{
+        font-size: 3em;
+    }
+
+    #data{
+        font-size: 1.3em;
+    }
+
+
+    #hr-form{
+        margin-top: 20px;
+    }
+
+
+
     #employee{
         left: 1270px;
         width: 690px;
         height: 900px;
     }
+
+    form input{
+
+        width: 85%;
+        height: 65px;
+        font-size: 1em;
+        margin-bottom: 5px;
+    }
+
 
 
 
