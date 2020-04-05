@@ -462,7 +462,7 @@
         height: 2px;   
     }
 
-@media (min-width: 375px) and (max-width: 425px){
+@media (min-width: 375px) and (max-width: 424px){
 
     #circle-bg{
         margin-left: 30px;
@@ -516,7 +516,7 @@
     }
 }
 
-@media (min-width: 425px) and (max-width: 768px){
+@media (min-width: 425px) and (max-width: 767px){
 
     #first-info{
         top: 260px;
@@ -645,7 +645,7 @@
 
 
     #circle-bg{
-        margin-left: 40px;
+        margin-left: 50px;
         width: 480px;
         height: 480px;
     }
@@ -666,16 +666,17 @@
     }
 
     #app-phone{
+        margin-left: 20px;
         width: auto;
         height: 330px;
     }
 
     #first-info{
         border: 1.5px solid #8ee197;
-        margin-top: 245px;
+        margin-top: 285px;
         padding-top: 40px;
         padding-left: 20px;
-        margin-left: 50px;
+        margin-left: 60px;
         font-size: 1.2em;
         height: 125px;
         width: 560px;
@@ -684,7 +685,7 @@
         
     #circles-section{
         margin-top: 50px;
-        margin-left: 15px;        
+        margin-left: 35px;        
         margin-bottom: 40px;
         padding-left: 70px;   
     }
@@ -705,155 +706,142 @@
 
 
     #human-resources{
-        left: 80px;
+        padding-top: 30px;
+        left: 100px;
         width: 570px;
         height: 800px;
         
     }
 
+    #btn-hr{
+        padding-top: 10px;
+        left: 210px
+    }
+
+    #btn-hr p{
+        font-size: 1.5em;
+    }
+
+    #btn-hr h2{
+        font-size: 2.1em;
+    }
+
+    #btn-employee p{
+        font-size: 1.5em;
+    }
+
+    #btn-employee h2{
+        font-size: 2.1em;
+    }
+
     form input{
-        height: 30px;
-        width: 70%;
+        
+        font-size: 1.3em;
+        height: 57px;
+        width: 88%;
         margin-bottom: -10px;
         border-style: none;
     }
 
+    #data{
+        font-size: 1.1em;
+    }
+
+    #text-one{
+        font-size: .9em;
+    }
+
+    #text-two{
+        margin-top: 10px;
+        font-size: .9em;
+    }
+
+    #want-minu{
+        border-radius: 15px;
+        margin-top: 20px;
+        height: 65px;
+        margin-bottom: 20px;
+        font-size: 1.5em;
+
+    }
+
     #employee{
-        left: 80px;
+        left: 100px;
         width: 570px;
         height: 800px;
         
     }
 
-}
-
-
-
-/* 
-@media (min-width: 768px) and (max-width: 1024px){
-
-    body{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
+    #btn-employee{
+        padding-top: 20px;
+        margin-left: 350px;
     }
 
-    #app-phone{
-    position: absolute;
-    height: 290px;
-    padding-left: 640px;
+    #employee h2{
+        margin-top: 90px;
+        font-size: 2.5em;
+    }
+
+    #employee p{
+        font-size: 1.2em;
+    }
+
+
+    #icon img{
+        height: 130px;
+        width: 130px;
+    }
+
+
+
+    #final-info{
+        padding-top: 825px;
+        
+    }
+
+    #final-info h2{
+        border: 1.5px solid #8ee197;
+        height: 40px;
+        width: 525px;
+        margin-left: 80px;
+        padding-left: 30px;
+        font-size: 1.3em;
+    }
+
+    #final-info h3{
+        font-size: 1.3em;
+        padding-left: 110px;
+    }
+
+    #fa-footer button{
+        font-size: .9em;
+        width: 250px;
+        height: 40px;
+        border-radius: 7px;
+    }
+
+    #contact img{
+        width: 100px;
+        height: auto;
+        padding-top: 10px;
+        margin-right: 170px;
+    }
+
+    #fa-footer p{
+        font-size: .8em;
     
-    margin-top: 120px;
+    }
+
+
+
 
 }
 
-#first-header{
-    justify-content: center;
-    align-items: center; 
-
-}
-
-#circle-bg{
-    margin-top: 100px;
-    width: 320px;
-    height: 320px;
-}
-
-#first-info{
-    position: absolute;
-    top: 610px;
-    left: 600px;
-    width: 40%;
-    height: 80px;
-  
-}
-
-#circles-section{
-    margin-left: 515px;
-}
-
-#btn-hr{
-    margin-left: 550px;
-}
-
-#btn-employee{
-    margin-left: 850px;
-}
-
-#human-resources{
-   margin-left: 500px;
-}
-
-#employee{
-    margin-left: 500px;
-}
 
 
 
-#final-info h2{
-    margin-left: 150px;
-    width: 67%;
-    height: 70px;
-    font-size: 2.5em;
-}
+@media (min-width: 1025px) and (max-width: 1440px){
 
-#final-info h3{
-    margin-left: 150px;
-    font-size: 2.2em;
-}
-
-
-
-#fa-footer button{
-    width: 40%;
-    height: 10px;
-    font-size: 1em;
-    
-}
-
-#contact{
-    justify-content:center;
-   margin-left: 100px;
-
-}
-
-#contact img{
-    margin-right: 350px;
-}
-
-#contact button{
-    margin-left: 100px;
-}
-
-#copyright{
-    position: absolute;
-}
-
-#rights {
-    top: 2270px;
-    position: absolute;    
-}
-
-#privacy{
-    width: 30%;
-    justify-content: center;
-    padding-top: 13px;
-    margin-left: 705px;
-}
-
-#privacy p{
-    padding-right: 20px;
-}
-
-.privacy-line{
-    width: 75%;
-   margin-left: 10px;
-} */
-
-
-
-@media (min-width: 1024px) and (max-width: 1439px){
     body{
         margin-right: 200px;
         background-position: center;
@@ -1077,9 +1065,8 @@
 
 }
 
-@media (min-width: 1440px) and (max-width: 2560px){
+@media (min-width: 1441px) and (max-width: 2560px){
 
-   
 
     #circle-bg{
         
@@ -1196,7 +1183,7 @@
 
 }
 
-@media (min-width: 2560px){
+@media (min-width: 2561px){
 
     body{
         background-position: center;
