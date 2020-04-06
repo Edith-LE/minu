@@ -1066,6 +1066,8 @@
     }
 }
 
+
+
 @media (min-width: 1251px) and (max-width: 1440px){
 
     body{
@@ -1115,7 +1117,7 @@
     }
 
     #first-info{
-        border: 2px solid ;
+        border: 2.1px solid #8ee197;
         top: 380px;
         left: 500px;
         width: 420px;
@@ -1298,233 +1300,234 @@
 
 
 
-/* @media (min-width: 1441px) and (max-width: 2560px){
+@media (min-width: 1441px) and (max-width: 2000px){
 
+
+    #first-header{
+        margin-top: 50px;
+    }
 
     #circle-bg{
-        
-        margin-left: 650px;
-        width: 360px;
-        height: 360px;
+        margin-left: 680px ;
+        width: 330px;
+        height: 330px;
     }
 
     #circle-bg p{
-        padding-left: 80px;
-        font-size: 1.8em;
+        padding-left:70px;
+        font-size: 1.7em;
     }
 
     #circle-bg img{
-        padding-left: 20px;
-        margin-top: 8px;
-        width: 120px;
+        padding-left: 15px;
+        margin-top: 7px;
+        width: 115px;
         height: auto;
+
     }
 
     #circle-bg h1{
-        font-size: 2.8em;
+        font-size: 2.4em;
     }
 
+
     #app-phone{
-        margin-left: 420px;
-        
-        height: 510px;
+        margin-left: 490px;
+        position: absolute;
+        height: 430px;
         width: auto;
     }
 
     #first-info{
-        top: 420px;
-        left: 710px;
-        width: 540px;
-        height: 110px;
-        font-size: 1.2em;
+        border: 3px solid #8ee197;
+        top: 390px;
+        left: 750px;
+        width: 420px;
+        height: 95px;
+        font-size: .9em;
         padding-top: 30px;
-        padding-left: 15px;  
+        padding-left: 10px;  
     }
 
     #circles-section{
-        margin-left: 700px;
-        margin-top: 60px;
-      }
-
-      .circle{
-          width: 110px ;
-          height: 110px;
-      }
-
-      .circle h2{
-          font-size: 2em;
-      }
-
-      .circle p{
-          font-size: .9em;
-      }
-
-      #human-resources{
-        left: 670px;
-        width: 410px;
-        height: 650px;
-
+      margin-left: 770px;
+      margin-top: 40px;
     }
 
-        
+    .circle{
+        height: 80px;
+        width: 80px;
+    }
+
+    .circle h2{
+        font-size: 1.68em;
+    }
+
+    .circle p{
+        font-size: .6em;
+    }
+
+    #human-resources{
+        left: 750px;
+        width: 410px;
+        height: 600px;
+
+    }
+    
     #btn-hr{
         padding-top: 8px;
-        margin-left: 675px;
+        margin-left: 750px;
+    }
+
+    #btn-hr p{
+        font-size: 1.2em;
+    }
+
+    #btn-hr h2{
+        font-size: 2em;
+    }
+
+    #data{
+        font-size: .9em;
+    }
+
+    #hr-form{
+        margin-top: 25px;
+    }
+
+    form input{
+        height: 45px;
+        font-size: 1em;
+    }
+
+    #text-one{
+        font-size: .7em;
+    }
+
+    #want-minu{
+        
+        font-size: 1.2em;
+        border-radius: 12px;
+        height: 50px;
+    }
+
+    #text-two{   
+        font-size: .7em;
     }
 
     #employee{
-        left: 670px;
+        left: 750px;
         width: 410px;
-        height: 650px;
+        height: 600px;
     }
 
     #btn-employee{
         padding-top: 20px;
-        margin-left: 765px;
+        margin-left: 840px;
+    }
+
+    #btn-employee p{
+        font-size: 1.2em;
+    }
+
+    #btn-employee h2{
+        font-size: 1.8em;
+    }
+
+    #employee h2{
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+
+    #employee p{
+        font-size: 1.1em;
+    }
+
+    #icon img{
+        height: 100px;
+        width: 100px;
     }
 
     #final-info{
         padding-top: 620px;
-       margin-left: 500px;
+       margin-left: 560px;
        font-size: 2em;
     }
 
+    #final-info h2{
+        padding-left: 50px;
+        width: 600px;
+        height: 45px;
+    }
+
+    #final-info h3{
+        margin-left: 59px;
+    }
+
+    #contact{
+        margin-left: 500px;
+        width: 74%;
+        justify-content: space-between;
+        
+       
+    }
+
+    #contact img{
+        width: 100px;
+        height: 30px;
+        margin-left: -70px;   
+      
+    }
+
+    
+    #contact button{
+        width: 240px;
+        height: 40px;
+        font-size: 1.1em;
+        border-radius: 10px;
+        margin-right: 170px;
+    }
+
     #fa-footer p{
-        font-size: .8em;
+        font-size: .7em;
 
     }
 
     #copyright{
         position: absolute;
+       
         margin-top: 20px;
         margin-left: -50px;
     }
 
+
     #rights{
-        top: 1540px;
-        margin-left: -130px;
+        top: 1469px;
+        margin-left: -110px;
         position: absolute;
     }
 
-    #privacy{ 
+
+    #privacy{
         display: flex;
-       
-        margin-left: 535px;
-        padding-top: 16px;
+        justify-content: center;
+        margin-left: 690px;
+        padding-top: 30px;
+    }
+
+    #privacy p{
+        
+        padding-right: 15px;
     }
 
 
-} */
 
 
-@media (min-width: 1500px) and (max-width: 2063px){
-
-    #app-phone{
-    position: absolute;
-    height: 590px;
-    padding-right: 720px;
-    margin-top: 120px;
-
-}
-
-#first-header{
-    justify-content: center;
-    align-items: center; 
-
-}
-
-#circle-bg{
-    margin-top: 100px;
-}
-
-#first-info{
-    position: absolute;
-    top: 610px;
-    left: 600px;
-    width: 40%;
-    height: 80px;
-  
-}
-
-#circles-section{
-    margin-left: 515px;
-}
-
-#btn-hr{
-    margin-left: 550px;
-}
-
-#btn-employee{
-    margin-left: 850px;
-}
-
-#human-resources{
-   margin-left: 500px;
-}
-
-#employee{
-    margin-left: 500px;
 }
 
 
 
-#final-info h2{
-    margin-left: 150px;
-    width: 67%;
-    height: 70px;
-    font-size: 2.5em;
-}
 
-#final-info h3{
-    margin-left: 150px;
-    font-size: 2.2em;
-}
-
-#fa-footer button{
-    width: 25%;
-    height: 60px;
-    font-size: 1.8em;
-    margin-right: 180px;
-}
-
-#contact{
-    justify-content:center;
-   margin-left: 100px;
-
-}
-
-#contact img{
-    margin-right: 350px;
-}
-
-#contact button{
-    margin-left: 100px;
-}
-
-#copyright{
-    position: absolute;
-}
-
-#rights {
-    top: 2270px;
-    position: absolute;    
-}
-
-#privacy{
-    width: 30%;
-    justify-content: center;
-    padding-top: 13px;
-    margin-left: 705px;
-}
-
-#privacy p{
-    padding-right: 20px;
-}
-
-.privacy-line{
-    width: 75%;
-   margin-left: 10px;
-}
 
 
 /* 
