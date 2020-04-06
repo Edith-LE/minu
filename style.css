@@ -1011,14 +1011,16 @@
     }
 
     #contact{
+        width: 74%;
         justify-content: space-between;
-        margin-left: 20px;
+        
        
     }
 
     #contact img{
         width: 100px;
         height: 30px;
+        margin-left: -50px;
        
       
     }
@@ -1041,30 +1043,262 @@
         position: absolute;
        
         margin-top: 20px;
-        margin-left: -50px;
+        margin-left: -170px;
     }
 
 
     #rights{
-        top: 1450px;
-        margin-left: -100px;
+        top: 1455px;
+        margin-left: -230px;
         position: absolute;
     }
 
     #privacy{
-        
         display: flex;
         justify-content: center;
-        margin-left: 525px;
-        padding-top: 16px;
+        margin-left: 325px;
+        padding-top: 30px;
+    }
+
+    #privacy p{
+        
+        padding-right: 15px;
     }
 }
 
-@media (min-width: 1251 px) and (max-width: 1440px){
+@media (min-width: 1251px) and (max-width: 1440px){
 
+    body{
+        margin-right: 200px;
+        background-position: center;
+        background-size: contain;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #first-header{
+       
+        margin-top: 50px;
+    }
+
+    #circle-bg{
+        margin-left: 440px ;
+        width: 320px;
+        height: 320px;
+    }
+
+    #circle-bg p{
+        padding-left:70px;
+        font-size: 1.7em;
+    }
+
+    #circle-bg img{
+        padding-left: 15px;
+        margin-top: 7px;
+        width: 115px;
+        height: auto;
+
+    }
+
+    #circle-bg h1{
+        font-size: 2.4em;
+    }
+
+
+    #app-phone{
+        margin-left: 260px;
+        position: absolute;
+        height: 410px;
+        width: auto;
+    }
+
+    #first-info{
+        border: 2px solid ;
+        top: 380px;
+        left: 500px;
+        width: 420px;
+        height: 95px;
+        font-size: .9em;
+        padding-top: 30px;
+        padding-left: 10px;  
+    }
+
+    #circles-section{
+      margin-left: 500px;
+      margin-top: 40px;
+    }
+
+    .circle{
+        height: 80px;
+        width: 80px;
+    }
+
+    .circle h2{
+        font-size: 1.68em;
+    }
+
+    .circle p{
+        font-size: .6em;
+    }
+
+    #human-resources{
+        left: 490px;
+        width: 390px;
+        height: 600px;
+
+    }
+    
+    #btn-hr{
+        padding-top: 8px;
+        margin-left: 485px;
+    }
+
+    #btn-hr p{
+        font-size: 1.2em;
+    }
+
+    #btn-hr h2{
+        font-size: 2em;
+    }
+
+    #data{
+        font-size: .9em;
+    }
+
+    #hr-form{
+        margin-top: 25px;
+    }
+
+    form input{
+        height: 45px;
+        font-size: 1em;
+    }
+
+    #text-one{
+        font-size: .7em;
+    }
+
+    #want-minu{
+        
+        font-size: 1.2em;
+        border-radius: 12px;
+        height: 50px;
+    }
+
+    #text-two{   
+        font-size: .7em;
+    }
+
+    #employee{
+        left: 490px;
+        width: 390px;
+        height: 600px;
+    }
+
+    #btn-employee{
+        padding-top: 20px;
+        margin-left: 570px;
+    }
+
+    #btn-employee p{
+        font-size: 1.2em;
+    }
+
+    #btn-employee h2{
+        font-size: 2em;
+    }
+
+    #employee h2{
+        margin-top: 40px;
+        font-size: 1.8em;
+    }
+
+    #employee p{
+        font-size: 1.1em;
+    }
+
+    #icon img{
+        height: 100px;
+        width: 100px;
+    }
+
+    #final-info{
+        padding-top: 620px;
+       margin-left: 300px;
+       font-size: 2em;
+    }
+
+    #final-info h2{
+        padding-left: 50px;
+        width: 600px;
+        height: 45px;
+    }
+
+    #final-info h3{
+        margin-left: 59px;
+    }
+
+    #contact{
+        width: 74%;
+        justify-content: space-between;
+        
+       
+    }
+
+    #contact img{
+        width: 100px;
+        height: 30px;
+        margin-left: -210px;   
+      
+    }
+
+    
+    #contact button{
+        width: 240px;
+        height: 40px;
+        font-size: 1.1em;
+        border-radius: 10px;
+        margin-right: 30px;
+    }
+
+    #fa-footer p{
+        font-size: .7em;
+
+    }
+
+    #copyright{
+        position: absolute;
+       
+        margin-top: 20px;
+        margin-left: -250px;
+    }
+
+
+    #rights{
+        top: 1455px;
+        margin-left: -310px;
+        position: absolute;
+    }
+
+
+    #privacy{
+        display: flex;
+        justify-content: center;
+        margin-left: 180px;
+        padding-top: 30px;
+    }
+
+    #privacy p{
+        
+        padding-right: 15px;
+    }
 }
 
-@media (min-width: 1441px) and (max-width: 2560px){
+
+
+/* @media (min-width: 1441px) and (max-width: 2560px){
 
 
     #circle-bg{
@@ -1180,8 +1414,120 @@
     }
 
 
+} */
+
+
+@media (min-width: 1500px) and (max-width: 2063px){
+
+    #app-phone{
+    position: absolute;
+    height: 590px;
+    padding-right: 720px;
+    margin-top: 120px;
+
 }
 
+#first-header{
+    justify-content: center;
+    align-items: center; 
+
+}
+
+#circle-bg{
+    margin-top: 100px;
+}
+
+#first-info{
+    position: absolute;
+    top: 610px;
+    left: 600px;
+    width: 40%;
+    height: 80px;
+  
+}
+
+#circles-section{
+    margin-left: 515px;
+}
+
+#btn-hr{
+    margin-left: 550px;
+}
+
+#btn-employee{
+    margin-left: 850px;
+}
+
+#human-resources{
+   margin-left: 500px;
+}
+
+#employee{
+    margin-left: 500px;
+}
+
+
+
+#final-info h2{
+    margin-left: 150px;
+    width: 67%;
+    height: 70px;
+    font-size: 2.5em;
+}
+
+#final-info h3{
+    margin-left: 150px;
+    font-size: 2.2em;
+}
+
+#fa-footer button{
+    width: 25%;
+    height: 60px;
+    font-size: 1.8em;
+    margin-right: 180px;
+}
+
+#contact{
+    justify-content:center;
+   margin-left: 100px;
+
+}
+
+#contact img{
+    margin-right: 350px;
+}
+
+#contact button{
+    margin-left: 100px;
+}
+
+#copyright{
+    position: absolute;
+}
+
+#rights {
+    top: 2270px;
+    position: absolute;    
+}
+
+#privacy{
+    width: 30%;
+    justify-content: center;
+    padding-top: 13px;
+    margin-left: 705px;
+}
+
+#privacy p{
+    padding-right: 20px;
+}
+
+.privacy-line{
+    width: 75%;
+   margin-left: 10px;
+}
+
+
+/* 
 @media (min-width: 2561px){
 
     body{
@@ -1301,15 +1647,7 @@
     }
 
 
-
-
-
-
-
-
-
-
-}
+} */
 
 
 
